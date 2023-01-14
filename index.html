@@ -9,20 +9,44 @@
     </head>
     <body>
         <h1>Taco Clicker</h1>
-        <div id = 'mainImage'>
-            <img src = 'images/main-taco.png' id = 'mainTaco' />
+        <div id = 'leftSide'>
+            <div id = 'mainImage'>
+                <img src = 'images/main-taco.png' id = 'mainTaco' />
+            </div>
         </div>
-        <div id = 'stats'>
-            <p class = 'statsTitle'>Stats</p>
-            <p id = 'currentTacos'>Tacos: 0</p>
-            <p id = 'tps'>Tacos Per Second: 0</p>
+        <div id = 'center'>
+            <div id = 'stats'>
+                <p class = 'statsTitle'><strong>Stats</strong></p>
+                <p id = 'currentTacos'><strong>Tacos:</strong> 0</p>
+                <p id = 'tps'><strong>Tacos Per Second:</strong> 0</p>
+                <p id = 'tpc'><strong>Tacos Per Click:</strong> 0</p>
+            </div>
         </div>
-        <div id = 'upgrades'>
-            <p class = 'upgradesTitle'>Upgrades</p>
-            <button id = 'upgrade1Btn'>Extra Cheese</button>
-            <p id = 'upgrade1Desc'><strong>Description:</strong> Increases your "Tacos Per Second" by 1.</p>
-            <p id = 'upgrade1CostP'><strong>Cost:</strong> 100</p>
+        <div id = 'rightSide'>
+            <div id = 'upgrades'>
+                <p class = 'upgradesTitle'><strong>Upgrades</strong></p>
+                <div id = 'upgrade1'>
+                    <button id = 'upgrade1Btn'>Extra Cheese</button>
+                    <p id = 'upgrade1Desc'><strong>Description:</strong> Increases your "Tacos Per Second" by 1.</p>
+                    <p id = 'upgrade1CostP'><strong>Cost:</strong> 100</p>
+                </div>
+                <div id = 'upgrade2'>
+                    <button id = 'upgrade2Btn'>Thicker Shell</button>
+                    <p id = 'upgrade2Desc'><strong>Description:</strong> Increases your "Tacos Per Click" by 1.</p>
+                    <p id = 'upgrade2CostP'><strong>Cost:</strong> 200</p>
+                </div>
+            </div>
         </div>
+        <footer>
+            <div id = 'options'>
+                <p class = 'optionsTitle'>Options</p>
+                <div id = 'optionsBtns'>
+                    <button id = 'saveBtn'>Save</button>
+                    <button id = 'loadButton'>Load</button>
+                </div>
+                <p class = 'version'>Version 1.1</p>
+            </div>
+        </footer>
         <script src = 'scripts/main.js'></script>
     </body>
 </html>
