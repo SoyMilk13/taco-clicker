@@ -1,108 +1,104 @@
-const _0x2bcfe8 = _0x4b27;
-(function (_0x41dc8b, _0x51ccbe) {
-    const _0x12af12 = _0x4b27, _0x2242b2 = _0x41dc8b();
+const _0x24fe79 = _0x4b75;
+(function (_0xcc510, _0x2edf6e) {
+    const _0x3766f8 = _0x4b75, _0x15fc84 = _0xcc510();
     while (!![]) {
         try {
-            const _0x55a846 = parseInt(_0x12af12(0xc3)) / 0x1 * (-parseInt(_0x12af12(0xa8)) / 0x2) + parseInt(_0x12af12(0xb2)) / 0x3 + -parseInt(_0x12af12(0xb6)) / 0x4 * (parseInt(_0x12af12(0xc9)) / 0x5) + parseInt(_0x12af12(0xa4)) / 0x6 * (-parseInt(_0x12af12(0xa6)) / 0x7) + parseInt(_0x12af12(0xb4)) / 0x8 + -parseInt(_0x12af12(0xb5)) / 0x9 + -parseInt(_0x12af12(0xa5)) / 0xa * (-parseInt(_0x12af12(0xbd)) / 0xb);
-            if (_0x55a846 === _0x51ccbe)
+            const _0x46cc2d = -parseInt(_0x3766f8(0xba)) / 0x1 * (parseInt(_0x3766f8(0xae)) / 0x2) + -parseInt(_0x3766f8(0xb4)) / 0x3 + -parseInt(_0x3766f8(0xb9)) / 0x4 + -parseInt(_0x3766f8(0xa1)) / 0x5 * (-parseInt(_0x3766f8(0x9e)) / 0x6) + parseInt(_0x3766f8(0xa4)) / 0x7 * (parseInt(_0x3766f8(0xa8)) / 0x8) + parseInt(_0x3766f8(0xad)) / 0x9 * (-parseInt(_0x3766f8(0xac)) / 0xa) + parseInt(_0x3766f8(0xaf)) / 0xb;
+            if (_0x46cc2d === _0x2edf6e)
                 break;
             else
-                _0x2242b2['push'](_0x2242b2['shift']());
-        } catch (_0x3ddf9b) {
-            _0x2242b2['push'](_0x2242b2['shift']());
+                _0x15fc84['push'](_0x15fc84['shift']());
+        } catch (_0x3ddc45) {
+            _0x15fc84['push'](_0x15fc84['shift']());
         }
     }
-}(_0xe220, 0x9559e));
-const mainTaco = document[_0x2bcfe8(0xc8)](_0x2bcfe8(0xc4)), currentTacos = document[_0x2bcfe8(0xc8)](_0x2bcfe8(0xa9)), upgrade1Btn = document['getElementById'](_0x2bcfe8(0xa0)), tps = document['getElementById'](_0x2bcfe8(0xb1)), upgrade1CostP = document[_0x2bcfe8(0xc8)](_0x2bcfe8(0xc6)), upgrade2Btn = document['getElementById'](_0x2bcfe8(0xc0)), tpc = document['getElementById'](_0x2bcfe8(0xae)), upgrade2CostP = document[_0x2bcfe8(0xc8)](_0x2bcfe8(0xbb)), saveBtn = document['getElementById']('saveBtn'), loadBtn = document[_0x2bcfe8(0xc8)](_0x2bcfe8(0xcb));
-document[_0x2bcfe8(0xc8)]('mainTaco')[_0x2bcfe8(0xa1)] = ![];
+}(_0x477f, 0x86957));
+const mainTaco = document[_0x24fe79(0xbf)](_0x24fe79(0xb8)), currentTacos = document[_0x24fe79(0xbf)](_0x24fe79(0xc2)), upgrade1Btn = document[_0x24fe79(0xbf)](_0x24fe79(0x9d)), tps = document[_0x24fe79(0xbf)]('tps'), upgrade1CostP = document[_0x24fe79(0xbf)]('upgrade1CostP'), upgrade2Btn = document[_0x24fe79(0xbf)](_0x24fe79(0x99)), tpc = document['getElementById'](_0x24fe79(0xbb)), upgrade2CostP = document[_0x24fe79(0xbf)](_0x24fe79(0xb7)), saveBtn = document[_0x24fe79(0xbf)](_0x24fe79(0xa5)), loadBtn = document[_0x24fe79(0xbf)](_0x24fe79(0xb5));
+document['getElementById'](_0x24fe79(0xb8))[_0x24fe79(0xc1)] = ![];
 let tacosPS = 0x0, tacosPC = 0x1, tacos = 0x0;
-mainTaco[_0x2bcfe8(0x9f)] = () => {
-    const _0x392858 = _0x2bcfe8;
-    tacos = tacos + tacosPC, currentTacos[_0x392858(0xac)] = _0x392858(0xcc) + tacos;
+mainTaco[_0x24fe79(0xb6)] = () => {
+    const _0x360c31 = _0x24fe79;
+    tacos = tacos + tacosPC, currentTacos['innerHTML'] = _0x360c31(0x9b) + tacos;
 };
-function _0x4b27(_0x592c23, _0x2a905c) {
-    const _0xe2207e = _0xe220();
-    return _0x4b27 = function (_0x4b27cd, _0x4c25ed) {
-        _0x4b27cd = _0x4b27cd - 0x9d;
-        let _0x247202 = _0xe2207e[_0x4b27cd];
-        return _0x247202;
-    }, _0x4b27(_0x592c23, _0x2a905c);
-}
 let upgrade1Cost = 0x64;
-upgrade1Btn[_0x2bcfe8(0x9f)] = () => {
-    const _0x4eb298 = _0x2bcfe8;
+upgrade1Btn[_0x24fe79(0xb6)] = () => {
+    const _0xfa229c = _0x24fe79;
     if (tacos < upgrade1Cost)
         return;
     else
-        return tacos = tacos - upgrade1Cost, tacosPS = tacosPS + 0x1, tps['innerHTML'] = _0x4eb298(0xbc) + tacosPS, upgrade1Cost = upgrade1Cost * 1.45, upgrade1Cost = Math[_0x4eb298(0xb0)](upgrade1Cost), upgrade1CostP[_0x4eb298(0xac)] = _0x4eb298(0xaf) + upgrade1Cost;
+        return tacos = tacos - upgrade1Cost, tacosPS = tacosPS + 0x1, tps[_0xfa229c(0xb1)] = _0xfa229c(0xab) + tacosPS, upgrade1Cost = upgrade1Cost * 1.45, upgrade1Cost = Math['trunc'](upgrade1Cost), upgrade1CostP['innerHTML'] = _0xfa229c(0xbe) + upgrade1Cost;
 };
 let upgrade2Cost = 0xc8;
-upgrade2Btn[_0x2bcfe8(0x9f)] = () => {
-    const _0xc77f2 = _0x2bcfe8;
+upgrade2Btn['onclick'] = () => {
+    const _0x3ae461 = _0x24fe79;
     if (tacos < upgrade2Cost)
         return;
     else
-        return tacos = tacos - upgrade2Cost, tacosPC = tacosPC + 0x1, tpc[_0xc77f2(0xac)] = _0xc77f2(0xc5) + tacosPC, upgrade2Cost = upgrade2Cost * 1.55, upgrade2Cost = Math[_0xc77f2(0xb0)](upgrade1Cost), upgrade2CostP['innerHTML'] = _0xc77f2(0xaf) + upgrade2Cost;
+        return tacos = tacos - upgrade2Cost, tacosPC = tacosPC + 0x1, tpc[_0x3ae461(0xb1)] = _0x3ae461(0xa9) + tacosPC, upgrade2Cost = upgrade2Cost * 1.55, upgrade2Cost = Math[_0x3ae461(0xb2)](upgrade2Cost), upgrade2CostP['innerHTML'] = _0x3ae461(0xbe) + upgrade2Cost;
 };
 function updateTacoCount() {
-    const _0x23acfd = _0x2bcfe8;
-    currentTacos[_0x23acfd(0xac)] = _0x23acfd(0xcc) + tacos;
+    const _0x13fe79 = _0x24fe79;
+    currentTacos[_0x13fe79(0xb1)] = 'Tacos:\x20' + tacos;
 }
-function _0xe220() {
-    const _0xdbbc96 = [
-        '5101470vwoPpX',
-        '20alxWqw',
-        '7kcGrjJ',
-        'readyState',
-        '10216llXKGf',
-        'currentTacos',
-        'interactive',
-        'setItem',
-        'innerHTML',
-        'onmousemove',
-        'tpc',
-        'Cost:\x20',
-        'trunc',
-        'tps',
-        '1240113TgZEdk',
-        'attachEvent',
-        '8562856EnRktr',
-        '588447YHTjfx',
-        '176bzZbAA',
-        'mousemove',
-        'setInterval',
-        'freeze',
-        'load',
-        'upgrade2CostP',
-        'Tacos\x20Per\x20Second:\x20',
-        '10353827tOGqps',
-        'callee',
-        'saveTpc',
-        'upgrade2Btn',
-        'focus',
-        'blur',
-        '193hKURNq',
-        'mainTaco',
-        'Tacos\x20Per\x20Click:\x20',
-        'upgrade1CostP',
-        'saveTps',
-        'getElementById',
-        '96935BKNPzh',
-        'onfocus',
-        'loadBtn',
-        'Tacos:\x20',
-        'onblur',
-        'addEventListener',
-        'onclick',
+function _0x4b75(_0x252a5c, _0x400485) {
+    const _0x477f51 = _0x477f();
+    return _0x4b75 = function (_0x4b75fb, _0x5e7444) {
+        _0x4b75fb = _0x4b75fb - 0x99;
+        let _0x1e98b6 = _0x477f51[_0x4b75fb];
+        return _0x1e98b6;
+    }, _0x4b75(_0x252a5c, _0x400485);
+}
+function _0x477f() {
+    const _0x18bc8a = [
         'upgrade1Btn',
-        'draggable',
+        '5184576fCWdBj',
+        'DevTools\x20detected!\x20All\x20changes\x20made\x20have\x20been\x20undone.',
+        'getItem',
+        '5qTwXKG',
+        'interactive',
+        'saveTps',
+        '287PSJmKM',
+        'saveBtn',
+        'onblur',
+        'load',
+        '203288AKjAPi',
+        'Tacos\x20Per\x20Click:\x20',
         'resize',
-        'complete'
+        'Tacos\x20Per\x20Second:\x20',
+        '50oifXAC',
+        '1458414cwVCcK',
+        '145342dblJCr',
+        '13948451pqohwW',
+        'setInterval',
+        'innerHTML',
+        'trunc',
+        'attachEvent',
+        '1871481IgjICN',
+        'loadBtn',
+        'onclick',
+        'upgrade2CostP',
+        'mainTaco',
+        '1557180rNGJIH',
+        '11FKIiXB',
+        'tpc',
+        'saveTpc',
+        'addEventListener',
+        'Cost:\x20',
+        'getElementById',
+        'onfocus',
+        'draggable',
+        'currentTacos',
+        'onresize',
+        'freeze',
+        'upgrade2Btn',
+        'onmousemove',
+        'Tacos:\x20',
+        'setItem'
     ];
-    _0xe220 = function () {
-        return _0xdbbc96;
+    _0x477f = function () {
+        return _0x18bc8a;
     };
-    return _0xe220();
+    return _0x477f();
 }
 function generateTacos() {
     if (tacosPS == 0x0)
@@ -113,27 +109,28 @@ function generateTacos() {
 }
 ;
 let saveTacos = null, saveTps = null, saveTpc = null;
-saveBtn[_0x2bcfe8(0x9f)] = () => {
-    const _0x4edb8d = _0x2bcfe8;
-    saveTacos = tacos, saveTps = tacosPS, saveTpc = tacosPC, localStorage[_0x4edb8d(0xab)]('saveTacos', saveTacos), localStorage[_0x4edb8d(0xab)](_0x4edb8d(0xc7), saveTps), localStorage[_0x4edb8d(0xab)](_0x4edb8d(0xbf), saveTpc);
+saveBtn[_0x24fe79(0xb6)] = () => {
+    const _0x513915 = _0x24fe79;
+    saveTacos = tacos, saveTps = tacosPS, saveTpc = tacosPC, localStorage[_0x513915(0x9c)]('saveTacos', saveTacos), localStorage[_0x513915(0x9c)](_0x513915(0xa3), saveTps), localStorage['setItem'](_0x513915(0xbc), saveTpc);
 };
 function loadTacos() {
-    const _0x439cd0 = _0x2bcfe8;
-    saveTacos = localStorage['getItem']('saveTacos'), saveTps = localStorage['getItem'](_0x439cd0(0xc7)), saveTpc = localStorage['getItem'](_0x439cd0(0xbf)), saveTacos = parseInt(saveTacos), saveTps = parseInt(saveTps), saveTpc = parseInt(saveTpc), tacos = saveTacos, tacosPS = saveTps, tacosPC = saveTpc;
+    const _0x87c2c2 = _0x24fe79;
+    saveTacos = localStorage[_0x87c2c2(0xa0)]('saveTacos'), saveTps = localStorage[_0x87c2c2(0xa0)](_0x87c2c2(0xa3)), saveTpc = localStorage['getItem'](_0x87c2c2(0xbc)), saveTacos = parseInt(saveTacos), saveTps = parseInt(saveTps), saveTpc = parseInt(saveTpc), tacos = saveTacos, tacosPS = saveTps, tacosPC = saveTpc;
 }
 ;
-var generation = window[_0x2bcfe8(0xb8)](generateTacos, 0x3e8), updateTacos = window[_0x2bcfe8(0xb8)](updateTacoCount, 0x3e8);
-loadBtn[_0x2bcfe8(0x9f)] = () => {
+var generation = window[_0x24fe79(0xb0)](generateTacos, 0x3e8), updateTacos = window[_0x24fe79(0xb0)](updateTacoCount, 0x3e8);
+loadBtn[_0x24fe79(0xb6)] = () => {
     loadTacos();
 }, !(function () {
-    const _0x39a54a = _0x2bcfe8;
-    function _0x424de3(_0x56c569) {
-        if (isNaN(+_0x56c569))
-            _0x56c569 = 0x64;
-        var _0x3d0ede = +new Date();
+    const _0x351a92 = _0x24fe79;
+    function _0x3d3525(_0x265d92) {
+        const _0x3dbf8b = _0x4b75;
+        if (isNaN(+_0x265d92))
+            _0x265d92 = 0x64;
+        var _0x5e5f11 = +new Date();
         debugger;
-        var _0x542295 = +new Date();
-        (isNaN(_0x3d0ede) || isNaN(_0x542295) || _0x542295 - _0x3d0ede > _0x56c569) && alert('DevTools\x20detected!\x20All\x20changes\x20made\x20have\x20been\x20undone.');
+        var _0x3085b3 = +new Date();
+        (isNaN(_0x5e5f11) || isNaN(_0x3085b3) || _0x3085b3 - _0x5e5f11 > _0x265d92) && alert(_0x3dbf8b(0x9f));
     }
-    window[_0x39a54a(0xb3)] ? document[_0x39a54a(0xa7)] === _0x39a54a(0xa3) || document[_0x39a54a(0xa7)] === _0x39a54a(0xaa) ? (_0x424de3(), window[_0x39a54a(0xb3)]('onresize', _0x424de3), window[_0x39a54a(0xb3)](_0x39a54a(0xad), _0x424de3), window[_0x39a54a(0xb3)](_0x39a54a(0xca), _0x424de3), window[_0x39a54a(0xb3)](_0x39a54a(0x9d), _0x424de3)) : setTimeout(argument[_0x39a54a(0xbe)], 0x0) : (window[_0x39a54a(0x9e)](_0x39a54a(0xba), _0x424de3), window[_0x39a54a(0x9e)](_0x39a54a(0xa2), _0x424de3), window[_0x39a54a(0x9e)](_0x39a54a(0xb7), _0x424de3), window[_0x39a54a(0x9e)](_0x39a54a(0xc1), _0x424de3), window['addEventListener'](_0x39a54a(0xc2), _0x424de3));
-}()), Object[_0x2bcfe8(0xb9)](detectDevTools);
+    window[_0x351a92(0xb3)] ? document['readyState'] === 'complete' || document['readyState'] === _0x351a92(0xa2) ? (_0x3d3525(), window[_0x351a92(0xb3)](_0x351a92(0xc3), _0x3d3525), window[_0x351a92(0xb3)](_0x351a92(0x9a), _0x3d3525), window[_0x351a92(0xb3)](_0x351a92(0xc0), _0x3d3525), window[_0x351a92(0xb3)](_0x351a92(0xa6), _0x3d3525)) : setTimeout(argument['callee'], 0x0) : (window[_0x351a92(0xbd)](_0x351a92(0xa7), _0x3d3525), window[_0x351a92(0xbd)](_0x351a92(0xaa), _0x3d3525), window[_0x351a92(0xbd)]('mousemove', _0x3d3525), window[_0x351a92(0xbd)]('focus', _0x3d3525), window[_0x351a92(0xbd)]('blur', _0x3d3525));
+}()), Object[_0x24fe79(0xc4)](detectDevTools);
