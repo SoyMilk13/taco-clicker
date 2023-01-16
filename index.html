@@ -43,10 +43,25 @@
                 <div id = 'optionsBtns'>
                     <button id = 'saveBtn'>Save</button>
                     <button id = 'loadBtn'>Load</button>
+                    <button id = 'resetBtn'>Reset Progress</button>
                 </div>
-                <p class = 'version'>Version 1.2</p>
+                <p class = 'version'>Version 1.3</p>
             </div>
         </footer>
+        <div id = 'warningMsg'>
+            <p><strong>WARNING:</strong> This action cannot be undone.</p>
+            <p>Click "confirm" if you understand, and wish to proceed.</p>
+            <button id = 'resetConfirm'>Confirm</button>
+            <button id = 'resetCancel'>Cancel</button>
+        </div>
+        <div id = 'updateMsg'>
+            <p class = 'updateTitle'><strong>Update:</strong> Version 1.3</p>
+            <p class = 'updateSubTitle'>Update notes:</p>
+            <p>- Added "reset" button</p>
+            <p>- Added update messages</p>
+            <p>- General bug fixes</p>
+            <button id = 'updateOk'>Ok</button>
+        </div>
         <script src = 'scripts/main.js'></script>
     </body>
 </html>
